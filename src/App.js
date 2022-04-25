@@ -7,9 +7,9 @@ import './App.css';
 function App() {
   return (
     //BEM
-    <div className="header">
+    <div className="App">
 
-      <h1>Let's build a LikeDislike APP</h1>
+
 
       {/*Header*/}
       <Header />
