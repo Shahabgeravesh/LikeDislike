@@ -1,20 +1,27 @@
 import React from 'react'
 import PersonIcon from '@mui/icons-material/Person';
 import ManageSearchIcon from '@mui/icons-material/ManageSearch';
-import { Public } from '@mui/icons-material';
+import IconButton from '@mui/material/IconButton';
 
 
 function Header() {
     return (
         <div className="header">
-            <PersonIcon className="header__icon" fontSize="large" />
+            <IconButton>
+
+
+
+
+                <PersonIcon className="header__icon" fontSize="large" />
+            </IconButton>
 
             <img className="header__logo" src="public/likedislike.jpg" alt="Logo" />
 
+            <IconButton>
 
+                <ManageSearchIcon className="header__icon" fontSize="large" />
 
-            <ManageSearchIcon className="header__icon" fontSize="large" />
-
+            </IconButton>
         </div>
     )
 }
