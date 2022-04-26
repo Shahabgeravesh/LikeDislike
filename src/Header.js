@@ -11,13 +11,12 @@ function Header() {
 
 
 
-
                 <PersonIcon className="header__icon" fontSize="large" />
-            </IconButton>
+                {/* </IconButton>
 
-            <img className="header__logo" src="public/likedislike.jpg" alt="Logo" />
+            <img className="header__logo" src="/" alt="Logo" />
 
-            <IconButton>
+            <IconButton> */}
 
                 <ManageSearchIcon className="header__icon" fontSize="large" />
 
