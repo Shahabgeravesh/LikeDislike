@@ -1,9 +1,9 @@
 import React from 'react';
 import "./Header.css"
-import Header from './Header';
 import TCards from './Cards';
 import './App.css';
 import SwipeButtons from "./SwipeButtons";
+import Footer from "./Footer";
 // import {
 //   BrowserRouter,
 //   Routes,
@@ -16,9 +16,11 @@ function App() {
     //BEM
     <div className="App">
       {/* <BrowserRouter> */}
-      <Header />
+
       <TCards />
       <SwipeButtons />
+      <Footer />
+
 
       {/* <Routes>
 

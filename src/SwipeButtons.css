@@ -1,9 +1,9 @@
 .swipeButtons {
     display: flex;
     position: fixed;
-    bottom: 7vh;
+    bottom: 18vh;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-around;
 
 }
 
@@ -15,9 +15,12 @@
 .Yes {
     padding: 3vw !important;
     color: green !important;
+    border-radius: 20px;
+
 }
 
 .No {
     padding: 3vw !important;
-    color: red
+    color: red;
+    border-radius: 20px;
 }

@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    position: fixed;
+    bottom: 6vh;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+
+.ManageSearch {
+    padding: 3vw !important;
+    color: rgb(0, 128, 45) !important;
+}
+
+.Back {
+
+    padding: 3vw !important;
+    color: rgb(0, 117, 128) !important;
+}
+
+.ManageAcc {
+    padding: 3vw !important;
+    color: rgb(0, 92, 128) !important;
+}
