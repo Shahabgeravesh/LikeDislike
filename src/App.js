@@ -3,6 +3,7 @@ import "./Header.css"
 import Header from './Header';
 import TCards from './Cards';
 import './App.css';
+import SwipeButtons from "./SwipeButtons";
 // import {
 //   BrowserRouter,
 //   Routes,
@@ -17,6 +18,7 @@ function App() {
       {/* <BrowserRouter> */}
       <Header />
       <TCards />
+      <SwipeButtons />
 
       {/* <Routes>
 
@@ -35,11 +37,3 @@ function App() {
 
 export default App;
 
-// {/*Header*/ }
-
-
-// {/*LikeDislike Cards*/ }
-
-// {/*Buttons Below Cards*/ }
-
-// {/*Chats Screen*/ }
