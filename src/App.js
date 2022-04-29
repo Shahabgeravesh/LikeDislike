@@ -4,38 +4,34 @@ import TCards from './Cards';
 import './App.css';
 import SwipeButtons from "./SwipeButtons";
 import Footer from "./Footer";
-// import {
-//   BrowserRouter,
-//   Routes,
-//   Route
+import Categories from "./Categories";
+import {
+  Routes,
+  Route
 
-// } from "react-router-dom";
+} from "react-router-dom";
+
 
 function App() {
   return (
-    //BEM
-    <div className="App">
-      {/* <BrowserRouter> */}
 
-      <TCards />
+    <div className="App">
+
+
+      <Routes>
+        <Route path="/" element={<TCards />} />
+        <Route path="/Categories" element={<Categories />} />
+
+
+      </Routes>
+
+
+
       <SwipeButtons />
       <Footer />
-
-
-      {/* <Routes>
-
-
-          <Route path="/" element={<TCards />} />
-
-        </Routes>
-
-
-      </BrowserRouter> */}
-
 
     </div >
   );
 }
 
 export default App;
-
